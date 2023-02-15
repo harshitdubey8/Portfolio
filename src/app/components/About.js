@@ -1,6 +1,6 @@
 import { Button } from "@material-ui/core";
 import GetAppIcon from "@material-ui/icons/GetApp";
-import about from "../assets/images/about.jpeg";
+import about2 from "../assets/images/about2.png";
 
 import styled from "styled-components";
 
@@ -13,13 +13,14 @@ function About() {
       <AboutContent>
         <AboutHeading>Know About Me !</AboutHeading>
         <AboutDescription>
-          Hey ! I am a student of Computer Science, I love to build projects for
-          fun ,I spend most of my time working on several projects, watching
-          Anime or playing video games. I observe problems and try to find a
-          creative solution out of it, I am also very much of an artist , I
-          scribble my pencil to turn blank pages into beautiful sketches and I
-          am also good in building UI for native mobile applications using
-          Figma.I love laughing and spending my life with fun.
+          Hi, I'm Harshit, a fresher software engineer with a passion for coding
+          and design. I've always been intrigued by the fascinating world of
+          technology, and I'm eager to explore more of it in my new career. I
+          love to code and design; creating something meaningful out of nothing
+          is something that excites me. From web development to app development,
+          I'm up for any challenge that comes my way. With my skillset as a
+          software engineer and knowledge in coding and design, I am ready to
+          take on the next challenge!
         </AboutDescription>
         <AboutHeading>Contact</AboutHeading>
         <AboutDescription>
@@ -28,7 +29,7 @@ function About() {
           Prayagraj
         </AboutDescription>
         <StyledButton
-          href="https://drive.google.com/file/d/1-7Eu56pZQMiLL5UyNPzTHTyHX9I4YWAF/view?usp=sharing"
+          href="https://drive.google.com/file/d/1K5exEEPyUmh1_1moqhhpYKNQITyF2twN/view?usp=sharing"
           target="_blank"
         >
           <GetAppIcon /> Download Resume
@@ -53,7 +54,7 @@ const AboutImageContainer = styled.div`
 `;
 
 const AboutImage = styled.section`
-  background: url(${about}) center/cover;
+  background: url(${about2}) center/cover;
   width: 120px;
   height: 120px;
 

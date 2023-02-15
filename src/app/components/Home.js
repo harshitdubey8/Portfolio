@@ -7,7 +7,7 @@ import GitHubIcon from "@material-ui/icons/GitHub";
 import TwitterIcon from "@material-ui/icons/Twitter";
 import ArrowDropDownCircleRoundedIcon from "@material-ui/icons/ArrowDropDownCircleRounded";
 
-import hero from "../assets/images/hero.jpg";
+import hero2 from "../assets/images/hero2.jpg";
 
 function Home() {
   return (
@@ -63,7 +63,7 @@ const HomeContainer = styled.section`
   position: relative;
   display: flex;
   flex-direction: column;
-  background: rgba(0, 0, 0, 0.3) url(${hero}) center/cover fixed no-repeat;
+  background: rgba(0, 0, 0, 0.3) url(${hero2}) center/cover fixed no-repeat;
   background-blend-mode: darken;
   width: 100%;
   height: calc(100vh - 60px);

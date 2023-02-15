@@ -14,7 +14,7 @@ function Education() {
           <EducationDescription>
             B.Tech in Computer Science
             <br />
-            7.2 CGPA
+            7.45 CGPA
           </EducationDescription>
           <EducationHeading>St Joseph's College Prayagraj</EducationHeading>
           <EducationDescription>
@@ -34,6 +34,12 @@ function Education() {
             handle their events, manage club members, and interact with each
             other in the community page build with JavaScript MERN (MongoDB,
             ExpressJs, ReactJs, NodeJs).
+          </EducationDescription>
+          <EducationHeading>GamerLog</EducationHeading>
+          <EducationDescription>
+            Gamerlog Focuses on the need of creating list in gamming commmunity
+            and letting gamers explore new genre of games and games created by
+            Indie gamers . Working as a FrontEnd Developer ( React Js )
           </EducationDescription>
         </EducationWrapper>
       </EducationBox>

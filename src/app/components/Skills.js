@@ -32,14 +32,14 @@ function Skills() {
         </SkillCard>
         <SkillCard>
           <SkillHeading>Figma</SkillHeading>
-          <ProgressCircle progress={50}>
-            <ProgressPercentage>50%</ProgressPercentage>
+          <ProgressCircle progress={75}>
+            <ProgressPercentage>75%</ProgressPercentage>
           </ProgressCircle>
         </SkillCard>
         <SkillCard>
           <SkillHeading>NodeJs</SkillHeading>
-          <ProgressCircle progress={25}>
-            <ProgressPercentage>25%</ProgressPercentage>
+          <ProgressCircle progress={50}>
+            <ProgressPercentage>50%</ProgressPercentage>
           </ProgressCircle>
         </SkillCard>
       </SkillsInnerContainer>

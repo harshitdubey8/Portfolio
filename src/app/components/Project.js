@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 import Iphone from "../assets/images/iphone.png";
 import Monitor from "../assets/images/monitor.png";
+import Project3 from "../assets/images/project3.jpg";
 
 function Project() {
   return (
@@ -23,19 +24,6 @@ function Project() {
 
         <ProjectCardContainer>
           <ProjectCard>
-            <ProjectImage src="https://cdn.discordapp.com/attachments/764593802866327569/835146724707270676/Screenshot_2021-04-23-19-02-35-312.jpg" />
-          </ProjectCard>
-          <ProjectTitle>TodoList(MERN)</ProjectTitle>
-          <ProjectUrl
-            href="https://github.com/harshitdubey8/TodoList"
-            target="_blank"
-          >
-            Project Url{" "}
-          </ProjectUrl>
-        </ProjectCardContainer>
-
-        <ProjectCardContainer>
-          <ProjectCard>
             <ProjectImage src="https://media.discordapp.net/attachments/773525005580500996/835143325304619018/Screenshot_20210423-184835.png?width=339&height=678" />
           </ProjectCard>
           <ProjectTitle>Book Cricket</ProjectTitle>
@@ -43,16 +31,6 @@ function Project() {
             href="https://github.com/harshitdubey8/BookCricket"
             target="_blank"
           >
-            Project url
-          </ProjectUrl>
-        </ProjectCardContainer>
-
-        <ProjectCardContainer>
-          <ProjectCard>
-            <ProjectImage src="https://media.discordapp.net/attachments/764593802866327569/835152984190746627/Screenshot_2021-04-23-19-29-15-022.jpg?width=317&height=678" />
-          </ProjectCard>
-          <ProjectTitle>Keep notes</ProjectTitle>
-          <ProjectUrl href="" target="_blank">
             Project url
           </ProjectUrl>
         </ProjectCardContainer>
@@ -80,6 +58,18 @@ function Project() {
             target="_blank"
           >
             Project url
+          </ProjectUrl>
+        </ProjectCardContainer>
+        <ProjectCardContainer>
+          <ProjectWebCard>
+            <ProjectWebImage src={Project3} />
+          </ProjectWebCard>
+          <ProjectTitle>Club Carnival</ProjectTitle>
+          <ProjectUrl
+            href="https://fervent-golick-eff49a.netlify.app/"
+            target="_blank"
+          >
+            Project
           </ProjectUrl>
         </ProjectCardContainer>
       </ProjectsInnerContainer>
